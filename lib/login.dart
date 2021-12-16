@@ -110,13 +110,13 @@ class _MyLoginState extends State<MyLogin> {
                                     //  color: Colors.white,
                                     onPressed: () {
 
-                                      if(myController.text =='Mateen' && myController2.text == 'mateen') {
+                                      if(myController.text =='Mateen@gmail.com' && myController2.text == 'mateen') {
                                         Navigator.pushNamed(context, 'form');
                                       }
-                                      else if(myController.text =='Kumail' && myController2.text == '123') {
+                                      else if(myController.text =='Kumail@gmail.com' && myController2.text == '123') {
                                         Navigator.pushNamed(context, 'form');
                                       }
-                                      else if(myController.text =='Hadi' && myController2.text == '1234') {
+                                      else if(myController.text =='Hadi@gmail.com' && myController2.text == '1234') {
                                         Navigator.pushNamed(context, 'form');
                                       }
                                       else{
